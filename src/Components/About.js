@@ -9,7 +9,7 @@ function BasicExample(props) {
           <Accordion.Item eventKey="0">
             <Accordion.Header>{props.about1}</Accordion.Header>
             <Accordion.Body>
-              This is a <strong>Single Page Application </strong>where you can convert your test in either <strong>Lower Case <span>or in </span>Upper Case</strong>. Also you can copy the text from the clipboard, you can count the number of characters and words and further review your text.
+              This is a <strong>Single Page Application </strong>where you can convert your text in either <strong>Lower Case</strong> or in <strong>Upper Case</strong>. Also you can copy the text from the clipboard, you can count the number of characters and words and further review your text.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">

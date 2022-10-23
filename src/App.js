@@ -13,8 +13,6 @@ import {
 export default function App() {
   return (
     <>
-
-
       <Router>
 
         <Navbar
@@ -32,19 +30,6 @@ export default function App() {
             />}></Route>
         </Routes>
       </Router>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </>
 
