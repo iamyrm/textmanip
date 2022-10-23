@@ -21,7 +21,9 @@ export default function App() {
           about="About"
         />
         <Routes>
-          <Route path="/" element={<Textmanip />}></Route>
+          <Route path="/" element={<Textmanip 
+            heading="Enter your text here."
+          />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={
             <About
