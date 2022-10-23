@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function BasicExample(props) {
   return (
     <>
-      <div className="container">
+      <div className="container my-3">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>{props.about1}</Accordion.Header>
