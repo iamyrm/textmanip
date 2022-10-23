@@ -13,9 +13,9 @@ function ColorSchemesExample(props) {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" to="/contact">{props.contact}</Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/about">{props.about}</Link>
                                 </li>
@@ -34,7 +34,7 @@ export default ColorSchemesExample;
 //Defining PropTypes
 ColorSchemesExample.propTypes = {
     home: PropTypes.string.isRequired,
-    contact: PropTypes.string.isRequired,
+    // contact: PropTypes.string.isRequired,
     about: PropTypes.string.isRequired,
 }
 

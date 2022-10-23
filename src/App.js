@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Textmanip from "./Components/Textmanip";
 import {
   BrowserRouter as Router,
@@ -11,6 +11,9 @@ import {
 
 
 export default function App() {
+
+
+
   return (
     <>
       <Router>
@@ -22,9 +25,9 @@ export default function App() {
         />
         <Routes>
           <Route path="/" element={<Textmanip 
-            heading="Enter your text here."
+            heading="TextManip - Word Counter, Character Counter, Remove Extra Spaces"
           />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          {/* <Route path="/contact" element={<Contact />}></Route> */}
           <Route path="/about" element={
             <About
               about1="About this App"
